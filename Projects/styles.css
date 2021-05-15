@@ -1,0 +1,67 @@
+body{
+    font-size: 1.5rem;
+}
+hr{
+    height: 3px;
+    color: brown;
+}
+.heading{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    text-align: center;
+}
+.score{
+    font-size: 2rem;
+    text-align: center;
+    border-color: crimson;
+    border-width: 5px;
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.scores{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.scores#myScore{
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: crimson;
+}
+.scores#yourScore{
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: crimson;
+
+}
+.para{
+    font-size: 1.5rem;
+    font-family: inherit;
+    text-align: center;
+}
+.rock,.paper,.scissor{
+    width: 20%;
+    display: inline-block;
+    margin: 6%;
+    
+}
+#input{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+#comp{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+#result{
+    width: 37%;
+    font-size: 2rem;
+    text-decoration: underline;
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  crimson;
+    
+}
