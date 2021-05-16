@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/backward/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include-fixed/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/**",
+                "C:/MinGW/include/**",
+                "C:/MinGW/bin/**",
+                "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/*",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/backward",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/include/",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/include-fixed/",
+                    "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tr1/",
+                    "C:/MinGW/include/**",
+                    "C:/MinGW/bin/**"
+                ],
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cppStandard": "c++20",
+            "cStandard": "c17",
+            "compilerPath": "C:/MinGW/bin/gcc.exe"
+        }
+    ],
+    "version": 4
+}

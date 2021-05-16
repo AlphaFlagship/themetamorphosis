@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        JavaScripting
+    </title>
+    <script>
+        //current font size 
+        var size = 10
+        //change speed  
+        var growIncrement = 0.2
+        function changeFontSize() {
+            //target setting to object id
+            var paragraph = document.getElementById("animatedParagraph")
+            size = size + growIncrement
+            paragraph.style.fontSize= size + "px"    
+            //making text shrink
+            //making it loop between shrink and grow
+            if (size>100){
+                paragraph.innerHTML= "Wow,this is dynamic"
+                growIncrement=-0.2
+            }
+            if (size<10) {
+                paragraph.innerHTML ="this is growing"
+                growIncrement=0.2
+            }
+        setTimeout("changeFontSize()",1)    
+        }
+    </script>
+</head>
+<body>
+    <p id="animatedParagraph">This is changing</p>
+    <script>
+        changeFontSize()
+    </script>
+    <p>
+        this is mouse hover popup <a href="manual.htm"
+        onmouseover="alert('u went over it') ">this part</a>
+    </p>
+</body>
+</html>

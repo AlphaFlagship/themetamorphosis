@@ -1,0 +1,30 @@
+body{
+    background-image: url(Images/page_bg.jpg);
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 120%;
+    
+}
+.header{
+    font-weight: bold;
+    color: aqua;
+    background-color: crimson;
+}
+.topic{
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    border-style: dashed;
+    border-width: 8px;
+    border-color: darkgreen;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0.5cm;
+    margin-left: 1cm;
+    background-color: chartreuse;
+    border-radius: 22px 22px 44px ;
+    border-bottom-left-radius: 100px 22px ;    
+}
+.para1{
+    margin: 5px;
+    font-size: medium;
+}
